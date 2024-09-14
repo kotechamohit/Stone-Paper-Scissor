@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't affect element width/height */
+}
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 10vh; /* Adjusts based on screen height */
+    line-height: 10vh; /* Matches the height to vertically center text */
+    font-size: 5vw; /* Responsive font size */
+}
+
+.choice {
+    height: 20vw; /* Make size responsive */
+    width: 20vw; /* Make size responsive */
+    max-width: 165px; /* Maintain max size */
+    max-height: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    background-color: black;
+}
+
+img {
+    height: 90%; /* Responsive to parent size */
+    width: 90%; /* Responsive to parent size */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw; /* Responsive spacing */
+    margin-top: 5vh; /* Responsive margin */
+    flex-wrap: wrap; /* Allow choices to wrap on small screens */
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    font-size: 5vw; /* Responsive font size */
+    margin-top: 5vh; /* Responsive margin */
+    gap: 10vw; /* Responsive gap */
+}
+
+#user-score, #comp-score {
+    font-size: 8vw; /* Responsive font size */
+}
+
+.msg-container {
+    margin-top: 5vh; /* Responsive margin */
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    font-size: 4vw; /* Responsive font size */
+    margin-top: 5vh; /* Responsive margin */
+    display: inline;
+    padding: 2vw;
+    border-radius: 1rem;
+}
+
+body {
+    background-color: grey;
+    padding: 2vw;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 6vw;
+        height: 12vh;
+        line-height: 12vh;
+    }
+
+    .choice {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .score-board {
+        font-size: 6vw;
+        gap: 3rem; /* Reduce gap on smaller screens */
+    }
+
+    #user-score, #comp-score {
+        font-size: 10vw;
+    }
+
+    #msg {
+        font-size: 5vw;
+    }
+}
