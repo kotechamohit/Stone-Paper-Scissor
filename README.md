@@ -4,6 +4,8 @@
 
 This repository contains a simple "Rock Paper Scissors" game implemented using HTML,CSS and JavaScript. The game allows a user to compete against a computer by selecting one of the three choices: Rock, Paper, or Scissors. The computer randomly selects a choice, and the outcome of each round is displayed with corresponding scores.
 
+## Link :https://relaxed-pithivier-7f20a8.netlify.app/
+
 ## How It Works
 
 1. **User and Computer Choices**: 
