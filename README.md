@@ -45,4 +45,10 @@ This repository contains a simple "Rock Paper Scissors" game implemented using H
 - **`drawGame()`**: Displays a message when both choices are the same.
 - **Event Listeners**: Each choice button has a click event listener to trigger the game.
 
+## Screenshot:
+
+![image](https://github.com/user-attachments/assets/7413ca50-587d-471b-a765-593bd9f7066e)
+
+![image](https://github.com/user-attachments/assets/4eb99167-fb7f-477a-bc7e-b45eaa202a2b)
+
 
